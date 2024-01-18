@@ -1,7 +1,7 @@
 import { ref } from "vue";
 import { authenticateWithToken } from "@/features/auth/api";
 
-const userInfo = ref({});
+const userInfo = ref();
 
 export function useAuth() {
   async function authenticate() {
