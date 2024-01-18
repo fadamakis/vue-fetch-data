@@ -1,6 +1,6 @@
 export async function authenticateWithToken() {
   return new Promise((resolve) => {
-    setTimeout(resolve, 500, {
+    setTimeout(resolve, 100, {
       fullname: "Fotis Adamakis",
       username: "@fadamakis",
       avatar:
